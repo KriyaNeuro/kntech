@@ -147,7 +147,7 @@ hr.botm-line {
     background-color: rgba(12, 184, 182) !important;
 }
 #banner{
-	background: url('../img/rg-banner.jpg') no-repeat fixed;
+	background: url('../img/bg-banner.jpg') no-repeat fixed;
 	background-size: cover;
 	min-height: 650px;
 	position: relative;
@@ -162,7 +162,7 @@ hr.botm-line {
 .banner-logo p{
     color: white;
     font-family: 'Edu NSW ACT Foundation', cursive;
-    font-size: 70px;
+    font-size: 60px;
     padding: 15px;
 }
 .banner-text{
