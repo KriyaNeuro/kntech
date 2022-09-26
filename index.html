@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-
+  <link rel="stylesheet" type="text/css" href="./css/styles.scss">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
@@ -68,7 +68,7 @@
           </div>
         </div>
       </nav>
-      <div class="container">
+      <div class="container" id="heaad">
         <div class="row">
           <div class="banner-info">
             <div class="banner-logo text-center">
@@ -137,63 +137,49 @@
   </section>
   <!--/ about-->
   <!--/ doctors team-->
+
   <section id="doctor-team" class="section-padding">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="ser-title">Our Team</h2>
-          <hr class="botm-line">
+    <div class="col-md-12">
+      <h2 class="ser-title">Our Team</h2>
+      <hr class="botm-line">
+    </div></div>
+    <div class="container">
+      <div class="roow">
+        <div class="caard">
+          <img height="260px" width="100%"  src="./img/Varadhan.jpeg">
+          <h3>Dr. SKM Varadhan</h3>
+          <p>Founder and Director</p>
         </div>
+        <div class="caard">
+          <img height="260px" width="100%" style="border: #373737 solid 1px;" src="./img/Sowmya.jpg">
+          <h3>Somya Verma</h3>
+          <p>Bussiness Head</p>
         </div>
-        <div class="row">
-          <div class="column">
-            <div class="card">
-              <img height="250px" width="100%" src="./img/Varadhan.jpeg">
-              <h3>Dr. SKM Varadhan</h3>
-              <p>Founder and Director</p><br><br>
-            </div>
-          </div>
-        
-          <div class="column">
-            <div class="card">
-              <img height="250px" width="100%" src="./img/Sowmya.jpg">
-              <h3>Somya Verma</h3>
-              <p>Bussiness Head</p><br><br>
-            </div>
-          </div>
-          
-          <div class="column">
-            <div class="card">
-              <img height="250px" width="100%" src="./img/Arushi.jpeg">
-              <h3>Arushi Gupta</h3>
-              <p>Business development<br>associate</p><br>
-            </div>
-          </div>
-        </div><br><br><br><br>
-        
-<div class="row1">
-  <div class="column1" style="height: 200px; text-align: center;">
-  <h4>Technical Intern</h4>
-  <p>Aditi Bothra</p>
-  </div>
-  <div class="column1" style="height: 200px; text-align: center;">
-  <h4>Business Development Intern</h4>
-  <p>Ravuri Sivathmika</p>
-    <p>R Aswanth</p>
-    <p>Thameema K P</p>
-  </div>
-  <div class="column1" style="height: 200px; text-align: center;">
-  <h4>Content Intern</h4>
-    <p>Aenakshee Roy</p>
-    <p>Elizebeth Susan Joseph</p>
-  </div>
-  <div class="column1" style="height: 200px; text-align: center;">
-    <h4>Web Development Intern</h4>
-    <p>B R M N Saketh</p>
+        <div class="caard">
+          <img height="260px" width="100%" style="border: #373737 solid 1px;" src="./img/Arushi.jpg">
+          <h3>Arushi Gupta</h3>
+          <p>Bussiness Development Associate</p>
+        </div>
+        <div class="caard">
+          <img height="260px" width="100%" style="border: #373737 solid 1px;" src="./img/gowtham.png">
+          <h3>Gowtham Kolli</h3>
+          <p>Bussiness Development Associate</p>
+        </div>
+        <div class="caard">
+          <img height="260px" width="100%" style="border: #373737 solid 1px;" src="./img/Pakhil Singh.jpeg">
+          <h3>Pakhil Singh</h3>
+          <p>Bussiness Development Associate</p>
+        </div>
+        <div class="caard">
+          <img height="260px" width="100%" style="border: #373737 solid 1px;" src="./img/saketh.jpg">
+          <h3>Saketh Ram</h3>
+          <p>Web Development Associate</p>
+        </div>
+      </div>
     </div>
-</div>
-
   </section>
+
   <!--/ doctor team-->
   <!--testimonial-->
   <section id="articles" class="section-padding">
@@ -271,11 +257,10 @@
           <h2 class="ser-title">Contact us</h2>
           <hr class="botm-line">
         </div>
-        <div class="col-md-4 col-sm-4">
-          <div class="space"></div>
+        <div class="col-md-4 col-sm-4"><br>
           <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>01 FA First Floor, IITM Research Park <br>Kanagam Road, Chennai TN 600113</p>
-          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@kriyaneuro.com</p>
-          <div class="space"></div>
+          <p><i id="padd" class="fa fa-envelope-o fa-fw pull-left fa-2x"></i><br>info@kriyaneuro.com</p><br>
+          <p><i class="fa fa-linkedin fa-fw pull-left fa-2x"></i>https://www.linkedin.com/company/<br>kriyaneuro-technologies-pvt-ltd/</p><br>
           <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+91 89996 00443</p><br>
           <iframe style="border: 1px solid black; margin: 5px"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.705939145633!2d80.2403906143539!3d12.990650517975885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d7d6641728d%3A0xddfdb15c6538d927!2sIIT%20Madras%20Research%20Park!5e0!3m2!1sen!2sin!4v1657351368213!5m2!1sen!2sin" width="300" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>

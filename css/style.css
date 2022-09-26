@@ -121,14 +121,17 @@ hr.botm-line {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+    background-color: rgba(12, 184, 182, 0.9);
 }
+
+
 .navbar-default .navbar-nav > li > a
 {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 300;
+    background-color: rgba(1, 184, 182, 0.21);;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
 {
@@ -152,6 +155,7 @@ hr.botm-line {
     z-index: -99;
     animation: titleAnimation 36s linear infinite 0s;
 }
+
 
 .banner{
     height: 650px;
@@ -528,8 +532,9 @@ footer
 }
 ::-webkit-scrollbar {
     width: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
   }
+  
   
   /* Track */
   ::-webkit-scrollbar-track {
@@ -556,10 +561,10 @@ footer
 /* Float four columns side by side */
 .column {
     float: left;
-    max-width: 300px;
-    width: 33%;
+    width: 22.5%;
     padding: 0 10px;
   }
+
   
   /* Remove extra left and right margins, due to padding */
   .row {margin: 0 -5px;}
@@ -574,7 +579,7 @@ footer
   /* Responsive columns */
   @media screen and (max-width: 720px) {
     .column {
-      width: 65%;
+      width: 60%;
       display: block;
       margin-bottom: 20px;
       min-width: 300px;
@@ -588,10 +593,6 @@ footer
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
   }
-
-
-
-
   .row1 {
     margin: 0 -5px;
 }
@@ -665,4 +666,68 @@ footer
         margin-right: auto;
     width: 120px;
     padding: 20px;
+  }
+
+
+  /* .containeer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  .roow{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x:visible;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar{
+    height: 10px;
+  }
+
+  .caard {
+    /*float: left;*/
+    max-width: 21rem;
+    min-width: 250px;
+    padding: 0.75rem;
+    margin: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    border: #f2f2f2 solid 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex-basis: 33.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  .caard > img {
+    margin-bottom: .75rem;
+    width: 100%;
+  }
+  
+  .card-text {
+    font-size: 85%;
+  }
+
+  @media (max-width: 720px){
+    .caard {
+        width: 60%;
+        display: block;
+        margin-bottom: 20px;
+        min-width: 300px;
+        margin: 20px auto;
+        float: none; 
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .roow{
+        flex-direction: column;
+        display: block;
+      }
+  }
+
+  #padd{
+    padding-top: 15px;
   }
